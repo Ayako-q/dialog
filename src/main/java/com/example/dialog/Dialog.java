@@ -13,6 +13,8 @@ public class Dialog {
         String surname = scan.next();
         System.out.println("Where are you from?");
         String from = scan.next();
+        System.out.println("And where do you live now?");
+        String live = scan.next();
         System.out.println("I like how its going! Tell me now, what kind of sport activity you enjoy doing or watching?");
         String activity = scan.next();
         System.out.println(activity + "? I love it too! What year have you been graduated from school?");
@@ -22,16 +24,16 @@ public class Dialog {
         if (car.equals("y")) {
             System.out.println("Cool, what model is it?");
             String carm = scan.next();
-            n = "You own a " + carm;
+            n = "you own a " + carm;
         } else if (car.equals("n")) {
             System.out.println("Btw, I don't think that it is a big problem to live w/o a car");
-            n = "You don't have a car";
+            n = "you don't have a car";
         }
         else {
             System.out.println("Seems like your answer is something other than 'y' or 'n', try again!");
             n = "And try again!";
         }
         System.out.print("Cool! To sum up, your name is " + surname + " " + uname + " and you are " + old + " years old.");
-        System.out.print("You are from " + from + " and have been graduated from school in " + year + ". Your favorite activity is " + activity + " and " + n );
+        System.out.print("You are from " + from + " now lives in " + live + " and have been graduated from school in " + year + ". Your favorite activity is " + activity + " and " + n );
     }
 }
