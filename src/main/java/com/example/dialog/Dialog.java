@@ -37,3 +37,4 @@ public class Dialog {
         System.out.print("You are from " + from + " now lives in " + live + " and have been graduated from school in " + year + ". Your favorite activity is " + activity + " and " + n );
     }
 }
+//I forgot to add screenshots for this part of my task, Im sorry for that
